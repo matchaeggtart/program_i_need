@@ -5,8 +5,9 @@ git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM
 #git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-
-# zsh-syntax-highlighting
-# history-substring-search
-# # zsh-completions
-# zsh-autosuggestions
+:<<!
+zsh-syntax-highlighting
+history-substring-search
+# zsh-completions
+zsh-autosuggestions
+!
