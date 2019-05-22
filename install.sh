@@ -16,9 +16,9 @@ sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-r
 sudo dnf install -y https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 #sudo dnf -y install rpmfusion-free-release.noarch rpmfusion-nonfree-release.noarch
 
-# Thanks for xuthus5 from https://github.com/xuthus5/fedora-netease/blob/master/install.sh
-sudo dnf install -y gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-vaapi libmad qt5-qtx11extras qt5-qtmultimedia libXScrnSaver libnsl
 :<<!
+# Thanks for xuthus5 from https://github.com/xuthus5/fedora-netease/blob/master/install.sh
+sudo dnf install -y gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-vaapi libmad qt5-qtx11extras qt5-qtmultimedia libXScrnSaver libnsl vlc
 mkdir ~/netease-cloud-music
 cd ~/netease-cloud-music
 wget http://d1.music.126.net/dmusic/netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
@@ -30,7 +30,7 @@ cd ~
 rm -rf ~/netease-cloud-music
 !
 # install vlc
-sudo dnf -y install vlc unrar
+sudo dnf -y install unrar
 
 # change the unit of gnome.weather => 'centigrade'
 # gsettings set org.gnome.GWeather temperature-unit "'centigrade'"
