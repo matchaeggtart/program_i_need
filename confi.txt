@@ -1,0 +1,14 @@
+Java
+
+sudo ln -sb /opt/Java/jdk1.8.0_211/bin/java /usr/bin/java
+sudo ln -s /opt/Java/jdk1.8.0_211/bin/javac /usr/bin/javac
+
+# Java & Tomcat
+export JAVA_HOME=/opt/Java/jdk1.8.0_211
+export CATALINA_HOME=/opt/apache-tomcat-8.5.41
+export CATALINA_BASE=/opt/apache-tomcat-8.5.41
+export PATH=$PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin
+
+
+-javaagent: PATH
+-javaagent:/opt/JetBrains/idea-IU-183.6156.11/bin/JetbrainsIdesCrack-4.2-release.jar
