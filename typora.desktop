@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=0.9.7
+Name=Typora
+GenericName=Markdown Editor
+Comment=a markdown editor, markdown reader
+Exec=/opt/Typora-linux-x64/Typora %f
+Icon=/opt/Typora-linux-x64/resources/app/asserts/icon/icon_512x512@2x.png
+Type=Application
+Terminal=false
+Categories=MarkdownEditor;TextEditor;
+StartupWMClass=Typora
